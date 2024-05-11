@@ -14,92 +14,162 @@
     <title>Frontend Mentor | Single-page developer portfolio</title>
   </head>
   <body>
-    <header>
-      <p>adamkeyes</p>
-      <nav>
-        <ul>
-          <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+    <header class="header">
+      <p class="header_logo">adamkeyes</p>
+      <nav class="header_nav">
+        <ul class="header_nav_list">
+          <li class="header_nav_item">
+            <a class="header_nav_link" href="#"></a>
+          </li>
+          <li class="header_nav_item">
+            <a class="header_nav_link" href="#"></a>
+          </li>
+          <li class="header_nav_item">
+            <a class="header_nav_link" href="#"></a>
+          </li>
+          <li class="header_nav_item">
+            <a class="header_nav_link" href="#"></a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <h1>Nice to meet you! I'm Adam Keyes.</h1>
+    <main class="main">
+      <section class="intro">
+        <h1 class="intro_title">Nice to meet you! I'm Adam Keyes.</h1>
 
-        <p>
+        <p class="intro_description">
           Based in the UK, I'm a front-end developer passionate about building
           accessible web apps that users love.
         </p>
 
-        <a href="#">Contact me</a>
-        <hr />
+        <a class="contact_link" href="#">Contact me</a>
+        <hr class="line" />
       </section>
-      <section>
-        <div>
-          <div>
-            <p>HTML</p>
-            <p>4 Years Experience</p>
+      <section class="skills">
+        <div class="skills_list">
+          <div class="skills_item">
+            <p class="skills_description">HTML</p>
+            <p class="skills_years">4 Years Experience</p>
           </div>
-          <div>
-            <p>CSS</p>
-            <p>4 Years Experience</p>
+          <div class="skills_item">
+            <p class="skills_description">CSS</p>
+            <p class="skills_years">4 Years Experience</p>
           </div>
-          <div>
-            <p>JavaScript</p>
-            <p>4 Years Experience</p>
+          <div class="skills_item">
+            <p class="skills_description">JavaScript</p>
+            <p class="skills_years">4 Years Experience</p>
           </div>
-          <div>
-            <p>Accessibility</p>
-            <p>4 Years Experience</p>
+          <div class="skills_item">
+            <p class="skills_description">Accessibility</p>
+            <p class="skills_years">4 Years Experience</p>
           </div>
-          <div>
-            <p>React</p>
-            <p>3 Years Experience</p>
+          <div class="skills_item">
+            <p class="skills_description">React</p>
+            <p class="skills_years">3 Years Experience</p>
           </div>
-          <div>
-            <p>Sass</p>
-            <p>3 Years Experience</p>
+          <div class="skills_item">
+            <p class="skills_description">Sass</p>
+            <p class="skills_years">3 Years Experience</p>
           </div>
         </div>
       </section>
       <section>
-        <h2>  Projects </h2>
-        <a href="#"> Contact me </a>
-        Design portfolio
-         HTML CSS 
-         View project 
-         View code
-        E-learning landing page
-         HTML CSS
-         View project 
-         View code 
-         Todo web app
-        HTML CSS JavaScript 
-        View project 
-        View code 
-        Entertainment web app 
-        HTML CSS JavaScript 
-        View project 
-        View code 
-        Memory Game 
-        HTML CSS JavaScript
-        View project 
-        View code 
-        Art gallery showcase 
-        HTML CSS JavaScript 
-        View project 
-        View code
+        <h2>Projects</h2>
+        <a class="contact_link" href="#"> Contact me </a>
+
+        <div>
+          <img />
+          <p>Design portfolio</p>
+          <p>HTML CSS</p>
+          <a href="#"> View project </a>
+          <a href="#"> View code </a>
+        </div>
+        <div>
+          <img />
+          <p>E-learning landing page</p>
+          <p>HTML CSS</p>
+          <a href="#"> View project </a>
+          <a href="#"> View code </a>
+        </div>
+        <div>
+          <img />
+          <p>Todo web app</p>
+          <p>HTML CSS JavaScript</p>
+          <a href="#"> View project </a>
+          <a href="#"> View code </a>
+        </div>
+        <div>
+          <img />
+          <p>Entertainment web app</p>
+          <p>HTML CSS JavaScript</p>
+          <a href="#"> View project </a>
+          <a href="#"> View code </a>
+        </div>
+        <div>
+          <img />
+          <p>Memory Game</p>
+          <p>HTML CSS JavaScript</p>
+          <a href="#"> View project </a>
+          <a href="#"> View code </a>
+        </div>
+        <div>
+          <img />
+          <p>Art gallery showcase</p>
+          <p>HTML CSS JavaScript</p>
+          <a href="#"> View project </a>
+          <a href="#"> View code </a>
+        </div>
       </section>
     </main>
+
     <footer>
-      Contact 
-      I would love to hear about your project and how I could help.
-      Please fill in the form, and I’ll get back to you as soon as possible.
-      Name
-       Email Message Send message adamkeyes
+      <div>
+        <div>
+          <h2>Contact</h2>
+          <p>
+            I would love to hear about your project and how I could help. Please
+            fill in the form, and I’ll get back to you as soon as possible.
+          </p>
+        </div>
+        <div>
+          <form action="#" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <hr class="line" />
+      <div>
+        <div>
+          <p>adamkeyes</p>
+        </div>
+        <div>
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
