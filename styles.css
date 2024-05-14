@@ -113,10 +113,12 @@ span {
   color: var(--white);
   margin-top: 66px;
   text-decoration: none;
+  margin-bottom: 219px;
 }
 
 .contact_link_span {
   border-bottom: 2px solid var(--green);
+  margin-top: 10px;
 }
 
 .intro_img {
@@ -126,4 +128,8 @@ span {
   height: 720px;
   left: 830px;
   top: 0px;
+}
+
+.skills {
+  border-top: 1px solid var(--white);
 }
